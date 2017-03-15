@@ -1,3 +1,5 @@
+#Autor Gabriel Bożek
+
 print("Maximize")
 f = True
 n = 10
