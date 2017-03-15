@@ -13,7 +13,7 @@ print()
 print("Subject To")
 print()
 
-for x in range(ord('a'), ord('a') + n):
+for x in range(ord('a'), ord('a') + n):                 #wypisuje kolumny
     f = True;
     for y in range(1, n + 1):
         if f:
@@ -25,7 +25,7 @@ for x in range(ord('a'), ord('a') + n):
 
 print()
 
-for y in range(1, n + 1):
+for y in range(1, n + 1):                           #wypisuje wiersze
     f = True
     for x in range(ord('a'), ord('a') + n):
         if f:
