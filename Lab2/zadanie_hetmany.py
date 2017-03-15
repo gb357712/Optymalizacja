@@ -1,6 +1,6 @@
 print("Maximize")
 f = True
-n = 10
+n = 10                                                  # wielkosc danych wejsciowych
 for x in range(ord('a'), ord('a') + n):
     for y in range(1, n + 1):
         if f:
