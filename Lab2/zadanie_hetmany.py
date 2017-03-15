@@ -37,8 +37,7 @@ for y in range(1, n + 1):
 
 print()
 
-for x in range(0, n-2):                                                   #najpierw po pierwszej kolumnie bez najdłuzszej przekatnek
-    f = True
+for x in range(0, n-2):                                                   #wypisuje przekątne w kierunku w dół w prawo
     for y in range (0, x+2):
         if f:
             f = False
@@ -47,7 +46,7 @@ for x in range(0, n-2):                                                   #najpi
         print(chr(ord('a')+y) + str(n-1-x+y), end='')
     print("<=1")
 
-for x in range(0, n-1):                                               #po pierwszym wierszu
+for x in range(0, n-1):                                              
     f = True
     for y in range(0, n-x):
         if f:
@@ -61,8 +60,7 @@ print()
 print()
 
 
-for x in range(0, n-2):                                                   #najpierw po pierwszej kolumnie bez najdłuzszej przekatnek w dol
-    f = True
+for x in range(0, n-2):                                         #wypisuje przekątne w kierunku w górę w prawo                                                  
     for y in range (0, x+2):
         if f:
             f = False
